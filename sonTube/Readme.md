@@ -52,6 +52,3 @@
 # Mongoose Model
 ### used to create the model of the database and it is used to create the collection of the database
 
-
-### Here the data Modelling link 
-['https://stackblitz.com/edit/stackblitz-starters-5fuc2m']
