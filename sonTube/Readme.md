@@ -52,3 +52,17 @@
 # Mongoose Model
 ### used to create the model of the database and it is used to create the collection of the database
 
+# CORS:
+## Handles cross-origin requests, allowing specific origins to access the server.
+
+# JSON Parsing:
+## Enables handling of JSON request bodies with a size limit.
+
+#URL-Encoded Parsing:
+## Handles form submissions and URL-encoded payloads.
+
+# Static File Serving:
+## Serves public files like images or stylesheets from the public folder.
+
+# Cookie Parsing:
+## Parses cookies from incoming requests for easier handling.
