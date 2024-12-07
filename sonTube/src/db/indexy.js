@@ -16,10 +16,10 @@ export const connectDB = async () => {
     console.log(`Connecting to MongoDB at: ${uri}`);
     const connectionInstance = await mongoose.connect(uri); // No additional options needed
     console.log(`\nMongoDB Connected! DB Host: ${connectionInstance.connection.host}`);
+
   } catch (err) {
     console.error("ERROR:", err.message);
     console.log(err);
-    
     process.exit(1);
   }
 };
